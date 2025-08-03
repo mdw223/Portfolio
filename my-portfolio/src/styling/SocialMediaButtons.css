@@ -1,0 +1,21 @@
+.social-media-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+  margin: 20px;
+}
+
+.social-button {
+  background-color: #f0f0f0; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 24px; /* Icon size */
+  color: black;
+}
+
+.social-button:hover {
+  background-color: #e0e0e0e7; /* Change background on hover */
+}
