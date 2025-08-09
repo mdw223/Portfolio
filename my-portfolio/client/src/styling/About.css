@@ -1,0 +1,14 @@
+.language-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about {
+    padding: 2rem;
+    text-align: center;
+    height: 44vh;
+}
+
