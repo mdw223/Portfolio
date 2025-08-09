@@ -5,13 +5,13 @@ import SocialMediaButtons from './SocialMediaButtons';
 
 const Contact = () => {
   const [copied, setCopied] = useState(false);
-  const myEmail = "malik.code@outlook.com"; // Replace with your actual email
+  const myEmail = "malik.code@outlook.com"; 
 
   const handleCopyEmail = async () => {
     try {
       await navigator.clipboard.writeText(myEmail);
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
+      setTimeout(() => setCopied(false), 2000); 
     } catch (err) {
       // Fallback for older browsers
       const textArea = document.createElement('textarea');
