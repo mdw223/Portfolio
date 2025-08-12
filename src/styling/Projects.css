@@ -83,6 +83,7 @@
   display: flex;
   gap: 0.75rem;
   justify-content: center;
+  align-items: center;
 }
 
 .card-button {
@@ -99,7 +100,6 @@
 }
 
 .github-button {
-  background-color: #24292e;
   color: white;
 }
 
@@ -149,6 +149,6 @@
   }
   
   .card-button {
-    width: 100%;
+    width: 30%;
   }
 }

@@ -77,15 +77,39 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.navbar {
+    background-color: #333333;
+}
+.github-button {
+  background-color: #24292e;
+}
+.social-button {
+  background-color: #f0f0f0;
+}
+/*View Resume */
+.action-button {
+  background-color: #f0f0f0;
+  color: black;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #333333;
+    background-color: #f9f9f9;
   }
   a:hover {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #cccccc;
+  }
+  .social-button {
+    background-color: #f0f0f0;
+  }
+  .action-button {
+    background-color: #f0f0f0;
+  }
+  .navbar {
+    background-color: #777777;
   }
 }
