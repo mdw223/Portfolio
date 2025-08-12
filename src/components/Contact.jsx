@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../styling/Contact.css'
-import resume from '../assets/Malik Wensman - Technical Resume.pdf';
+import resume from '../assets/Malik Wensman - Technical Résumé.pdf';
 import SocialMediaButtons from './SocialMediaButtons';
 
 const Contact = () => {
