@@ -1,7 +1,5 @@
 @media (max-width: 768px) {
-    .mobile-display-none {
-        display: none; /* Hide the full navbar */
-    }
+
 }
 
 .navbar {
@@ -10,11 +8,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #333;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 
