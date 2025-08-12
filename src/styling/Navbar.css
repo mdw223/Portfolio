@@ -1,3 +1,9 @@
+@media (max-width: 768px) {
+    .mobile-display-none {
+        display: none; /* Hide the full navbar */
+    }
+}
+
 .navbar {
   position: fixed;
   z-index: 1000;
@@ -10,6 +16,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 
 .navbar ul {
   list-style-type: none;

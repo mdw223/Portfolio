@@ -32,7 +32,7 @@ const projects = [
         "title": "LearnArabic!",
         "image": learnArabicImg,
         "githubLink": "https://github.com/mdw223/Flashcards",
-        "videoLink": "https://www.youtube.com/watch?v=example3",
+        "videoLink": "https://youtu.be/ftRRHxlA8Z0",
         "description": "Interactive flashcards for learning Arabic."
     },
     {
