@@ -1,6 +1,6 @@
 import '../styling/Projects.css'
 import { YouTubePlaylist } from "@codesweetly/react-youtube-playlist";
-import projects from '../assets/projects.json';
+import projects from '../assets/projects.js'; 
 
 const Project = ({title, image, githubLink, videoLink, description}) => {
     return (
@@ -8,7 +8,7 @@ const Project = ({title, image, githubLink, videoLink, description}) => {
         <div className="project-card">
             <div className="card-media">
               <img 
-                src={image}
+                src={image} 
                 alt={`${title} project screenshot`}
                 className="card-image"
               />
